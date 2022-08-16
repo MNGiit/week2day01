@@ -6,10 +6,23 @@
 .secondBanner {
     background-color: green;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.banners {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 35px;
+    border-bottom: solid darkgray;
 }
 
 .menuIcon {
@@ -17,8 +30,41 @@
     width: 24px;
 }
 
+.gameStopLogo {
+    height: 84px;
+    width: 84px;
+    padding-right: 1050px;
+}
+
 .searchBar {
     border: none;
     background-color: lightgray;
     width: 45%;
+    display: flex;
+    align-items: stretch;
+}
+
+.topImg, .secondImg {
+    width: 100%;
+}
+
+.container {
+    padding-top: 8px;
+}
+
+.topImg {
+    height: 85px;
+}
+
+.secondImg {
+    height: 280px;
+}
+
+.productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productPrice {
+    font-weight: bolder;
 }
