@@ -8,6 +8,10 @@
     color: white;
 }
 
+.header {
+    display: flex;
+}
+
 .menuIcon {
     height: 24px;
     width: 24px;
